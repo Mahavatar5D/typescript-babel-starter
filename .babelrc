@@ -1,0 +1,15 @@
+{
+  // Groups of plugins
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    // transpile classProperties statements.
+    "@babel/plugin-proposal-class-properties",
+    // transpile spread operator statements.
+    "@babel/proposal-object-rest-spread",
+    // transpile async await statements.
+    "@babel/plugin-transform-runtime"
+  ]
+}
