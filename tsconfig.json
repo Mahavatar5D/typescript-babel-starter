@@ -20,9 +20,13 @@
     "strict": true,
     // Ensure that .d.ts files are created by tsc, but not .js files.
     "declaration": true,
+    // Offers a way to configure the root directory for where declaration files are emitted.
+    "declarationDir": "./types",
     // Ensure that Babel can safely transpile files in the TypeScript project.
     "isolatedModules": true,
     // Import non-ES modules as default imports.
     "esModuleInterop": true,
+    // Skip type checking of declaration files. Ex: node_modules (folder)
+    "skipLibCheck": true,
   }
 }
