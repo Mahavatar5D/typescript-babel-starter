@@ -10,6 +10,8 @@
   "compilerOptions": {
     // Enable incremental compilation.
     "incremental": true,
+    // Specify the folder .tsbuildinfo incremental compilation files.
+    "tsBuildInfoFile": "./buildcache/tsconfig.tsbuildinfo",
     // Target latest version of ECMAScript.
     "target": "esnext",
     // Search under node_modules for non-relative imports.
