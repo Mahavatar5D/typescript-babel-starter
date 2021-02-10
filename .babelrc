@@ -12,5 +12,7 @@
     "@babel/proposal-object-rest-spread",
     // transpile async await statements.
     "@babel/plugin-transform-runtime"
-  ]
+  ],
+  // Desable output comments.
+  "comments": false
 }

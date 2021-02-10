@@ -28,7 +28,9 @@
     "isolatedModules": true,
     // Import non-ES modules as default imports.
     "esModuleInterop": true,
-    // Skip type checking of declaration files. Ex: node_modules (folder)
+    // Skip type checking of declaration files. Ex: node_modules (folder).
     "skipLibCheck": true,
+    // Remove comments.
+    "removeComments": true
   }
 }
