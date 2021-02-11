@@ -13,7 +13,8 @@
     // transpile async await statements.
     "@babel/plugin-transform-runtime"
   ],
-  // Desable output comments.
+  // Desable output comments in bundle files.
   "comments": false,
+  // Compact output bundle files.
   "compact": true
 }

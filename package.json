@@ -9,7 +9,8 @@
     "type-check:watch": "yarn type-check --watch",
     "build": "yarn build:types && yarn build:js",
     "build:types": "tsc --emitDeclarationOnly",
-    "build:js": "babel src --out-dir dist --copy-files --extensions \".ts,.tsx\" --source-maps"
+    "build:js": "babel src --out-dir dist --copy-files --extensions \".ts,.tsx\" --source-maps",
+    "build:tsc": "tsc --build tsconfig.json"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.13",

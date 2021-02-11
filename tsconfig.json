@@ -31,6 +31,10 @@
     // Skip type checking of declaration files. Ex: node_modules (folder).
     "skipLibCheck": true,
     // Remove comments.
-    "removeComments": true
+    "removeComments": true,
+    // Output bundle files.
+    "outDir": "./dist",
+    // Generate '.map' files.
+    "sourceMap": true
   }
 }
